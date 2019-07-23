@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express', entidade: 'Senac' });
+  res.render('produtos', { title: 'Senac Campinas', curso: 'T.I', uc: '12' });
 });
 
 module.exports = router;
